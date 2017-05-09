@@ -6,25 +6,6 @@
             <element>format</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Blu-Ray</label>
-            <language>en</language>
-            <name>x_snc_media_librar_copy</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-09 15:16:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>db1a3e3600a232007f44002a0d725962</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-09 15:16:16</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>format</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Hardcover</label>
             <language>en</language>
             <name>x_snc_media_librar_copy</name>
@@ -77,6 +58,25 @@
             <sys_updated_on>2017-05-09 15:16:22</sys_updated_on>
             <value/>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blu-Ray</label>
+            <language>en</language>
+            <name>x_snc_media_librar_copy</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 15:16:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db1a3e3600a232007f44002a0d725962</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:39:31</sys_updated_on>
+            <value/>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>format</element>
             <name>x_snc_media_librar_copy</name>
@@ -85,7 +85,7 @@
             <sys_created_on>2017-05-09 15:15:56</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>b01aba3600a232007f44002a0d7259de</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>format</sys_name>
             <sys_package display_value="Media Library" source="x_snc_media_librar">3458a92c518a32007f446637134c6055</sys_package>
             <sys_policy/>
@@ -93,7 +93,7 @@
             <sys_scope display_value="Media Library">3458a92c518a32007f446637134c6055</sys_scope>
             <sys_update_name>sys_choice_x_snc_media_librar_copy_format</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-09 15:16:22</sys_updated_on>
+            <sys_updated_on>2017-05-09 15:39:31</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

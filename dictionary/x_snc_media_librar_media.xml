@@ -5,8 +5,8 @@
         <element display="true" label="Title" max_length="40" name="title" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element label="Book"/>
-                <element label="Movies"/>
+                <element label="Book" sequence="0"/>
+                <element label="Movies" sequence="0"/>
             </choice>
         </element>
     </element>

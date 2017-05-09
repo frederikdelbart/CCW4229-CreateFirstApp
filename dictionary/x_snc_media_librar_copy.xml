@@ -3,18 +3,18 @@
     <element label="Copy" max_length="40" name="x_snc_media_librar_copy" type="collection">
         <element choice="1" label="Format" max_length="40" name="format" type="choice">
             <choice>
-                <element label="Blu-Ray"/>
                 <element label="Hardcover"/>
                 <element label="Paperback"/>
                 <element label="VHS"/>
+                <element label="Blu-Ray" sequence="0"/>
             </choice>
         </element>
         <element display="true" label="Media" max_length="32" name="media" reference="x_snc_media_librar_media" type="reference"/>
         <element label="Owned by" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
         <element choice="1" default="Available" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element label="Available"/>
                 <element label="Loaned"/>
+                <element label="Available" sequence="0"/>
             </choice>
         </element>
         <index name="index">
